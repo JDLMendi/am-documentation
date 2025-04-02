@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://jdlmendi.github.io',
+	base: 'am-documentation',
 	integrations: [
 		starlight({
 			title: 'Adaptive Metronome',
