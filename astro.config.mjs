@@ -29,27 +29,27 @@ export default defineConfig({
 				{
 					label: 'User Interface',
 					items: [
-						{ label: 'Plugin Editor', slug: '' },
+						{ label: 'Plugin Editor', slug: 'user-interface/plugin-editor' },
 					],
 				},
 
 				{
 					label: 'Processor',
 					items: [
-						{ label: 'Plugin Processor', slug: '' },
+						{ label: 'Plugin Processor', slug: 'processor/plugin-processor' },
 					],
 				},
 
 				{
 					label: 'Ensemble Model',
 					items: [
-						{ label: 'Ensemble Model', slug: '' },
+						{ label: 'Ensemble Model', slug: 'ensemble-model/ensemble-model' },
 						{
 							label: 'Players',
 							collapsed: true,
 							items: [
-								{ label: 'Player', slug: '' },
-								{ label: 'User Player', slug: '' },
+								{ label: 'Player', slug: 'ensemble-model/players/player' },
+								{ label: 'User Player', slug: 'ensemble-model/players/user-player' },
 							]
 						},
 					],
@@ -58,10 +58,10 @@ export default defineConfig({
 				{
 					label: 'Open Sound Control (OSC)',
 					items: [
-						{ label: 'How it works', slug: '' },
-						{ label: 'Listening Messages', slug: '' },
-						{ label: 'Sending Messages', slug: '' },
-						{ label: 'Making your own messages', slug: '' },
+						{ label: 'How it works', slug: 'osc-messaging/how-it-works' },
+						{ label: 'Listening for Messages', slug: 'osc-messaging/listening' },
+						{ label: 'Sending Messages', slug: 'osc-messaging/sending' },
+						{ label: 'Making your own messages', slug: 'osc-messaging/making-messages' },
 					],
 				},
 
@@ -77,9 +77,9 @@ export default defineConfig({
 				// 	label: 'Reference',
 				// 	autogenerate: { directory: 'reference' },
 				// },
+				
 			],
 			customCss: [
-				// Relative path to your custom CSS file
 				'./src/styles/root.css',
 			  ],
 			lastUpdated: true,

@@ -1,7 +1,6 @@
 ---
-title: How to use
+title: Sending Messages
 description: A guide in my new Starlight docs site.
 ---
 
-How to use the AM
-
+Sending OSC messages

@@ -1,7 +1,6 @@
 ---
-title: How to use
+title: Making your own messages
 description: A guide in my new Starlight docs site.
 ---
 
-How to use the AM
-
+Making OSC Messages

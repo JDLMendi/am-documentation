@@ -1,7 +1,6 @@
 ---
-title: How to use
+title: How it works
 description: A guide in my new Starlight docs site.
 ---
 
-How to use the AM
-
+How OSC works

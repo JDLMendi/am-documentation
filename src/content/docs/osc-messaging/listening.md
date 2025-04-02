@@ -1,7 +1,6 @@
 ---
-title: How to use
+title: Listing to Messages
 description: A guide in my new Starlight docs site.
 ---
 
-How to use the AM
-
+Listening for OSC messages
