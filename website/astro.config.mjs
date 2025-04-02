@@ -82,6 +82,7 @@ export default defineConfig({
 				// Relative path to your custom CSS file
 				'./src/styles/root.css',
 			  ],
+			lastUpdated: true,
 		}),
 	],
 });
